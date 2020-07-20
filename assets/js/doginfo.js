@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', function () {
     console.log(breedobject.name)
     var breed = breedobject.name
     console.log(breed)
-
+ //   dogPic(apiKey, breed,)
     videoSearch(apiKey, breed, 2)
 });
 var newBreed = function(data, index) {
@@ -70,5 +70,18 @@ var videoSearch = function(key, search, maxResults){
          $("#videos").append(video)
         })
         })
+    }
+
+
+
+    //LaTalia Dog image
+  /*  var apiKey= "2b5be5dadfae2ac23f7ca9d84ecee6d5";
+    var imgId= "";
+
+var dogPic= function(key, maxResults){
+    $("is-rounded").empty
+    $.get("https://www.flickr.com/search/?text=" + key + maxResults)
+        console.log(data)
+    $("#is-rounded").append(imgId)
     }
 
