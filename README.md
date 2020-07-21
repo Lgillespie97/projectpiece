@@ -13,3 +13,6 @@ __API(s)__
  * Compatible with mobile users
  * Large selection of dog breeds
 
+__Images__
+
+<img src="assets/readimg/cover.png" width="500">
